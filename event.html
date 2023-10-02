@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Event Sign Up</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+	<link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+	<script src="https://kit.fontawesome.com/4a1b1d8797.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form>
+        <label>Full Name</label>
+        <input type="text" id="name" spellcheck="false" name="name">
+
+        <label>Event Details</label>
+        <textarea id="event" name="event"></textarea>
+
+        <label>City Location</label>
+        <select>
+            <option>Citrus Heights</option>
+            <option>Elk Grove</option>
+            <option>Folsom</option>
+            <option>Galt</option>
+            <option>Rancho Cordova</option>
+            <option>Sacramento</option>
+        </select>
+
+        <label>Cell</label>
+        <input type="tel" name="cell">
+
+        <label>Email</label>
+        <input type="email" spellcheck="false" name="email">
+
+        <label>Password</label>
+        <input type="password" name="password">
+
+        <button action="form.php" method="post">Create Event</button>
+        <button>Manage Event</button>
+        <button>Home Page</button>
+        <button>Start Over</button>
+
+    </form>
+</body>
+</html>
